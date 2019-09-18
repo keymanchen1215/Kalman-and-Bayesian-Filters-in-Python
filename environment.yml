@@ -1,10 +1,10 @@
-name: kf_bf
 dependencies:
-- python
-- ipython
-- jupyter
-- matplotlib
-- scipy
-- sympy
-- pip:
-  - filterpy
+  - python=3
+  - pip:
+      - scipy
+      - numpy
+      - pandas
+      - matplotlib
+      - sympy
+      - filterpy
+      - ipykernel
